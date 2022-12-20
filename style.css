@@ -9,3 +9,11 @@
 #high-scores-page {
     display: none;
 }
+
+#view-high-score {
+    justify-content: left;
+}
+
+#timer {
+    justify-content: right;
+}
