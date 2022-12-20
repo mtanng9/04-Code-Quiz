@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>View High Score</h1>
+    <h1 id="view-high-scores">View High Score</h1>
     <h1 id="timer">Timer</h1>
 
     <div id="start-page">
@@ -29,9 +29,19 @@
 
     <!-- end game page -->
     <div id="end-quiz-page">
-        <h1>GAME OVER TEST</h1>
+        <h1>ALL DONE</h1>
+        <h2 id="quiz-score">Here's Your Score</h2>
+        <label for="quiz-initials">Enter Initials:</label>
+        <input type="text" name="quiz-initials" id="quiz-initials">
+        <input type="button" value="Submit" id="quiz-score-submit">
     </div>
 
+    <div id="high-scores-page">
+        <h1>High Scores</h1>
+        <h2 id="high-score"></h2>
+        <input type="button" value="Clear High Scores" id="clear-scores">
+        <input type="button" value="Return Home" id="home-button">
+    </div>
     <!-- high score page -->
 
     <script src="script.js"></script>
